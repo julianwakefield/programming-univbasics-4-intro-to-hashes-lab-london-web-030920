@@ -35,7 +35,7 @@ if key["new_key"]
 return hash["new_key"] += 1
 
 else
-  return hash[:new_key => 1]
+  return hash[new_key: => 1]
 end
 
 end
