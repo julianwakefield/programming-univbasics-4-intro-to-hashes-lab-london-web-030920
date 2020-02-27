@@ -25,7 +25,7 @@ end
 
 def read_from_hash(hash, key)
 hash = {name: "Steve", age: 31}
-key = person
+key = :name
   # return the correct value using the hash and key parameters
 end
 
