@@ -30,11 +30,11 @@ hash[key]
 end
 
 def update_counting_hash(hash, key)
-count = 0
+counter = 0
 if hash["new_key"]
-hash["new_key"] += 1
+hash["new_key"] = 1
 else
-  hash[:new_key => 1]
+  hash[:new_key => +1]
 end
   # given a hash and a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
