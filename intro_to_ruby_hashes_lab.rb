@@ -32,9 +32,10 @@ end
 def update_counting_hash(hash, key)
 counter = 0
 if key["new_key"]
-key["new_key"] += 1
+return hash["new_key"] += 1
+
 else
-  key[:new_key => 1]
+  return hash[:new_key => 1]
 end
 
 end
